@@ -3,7 +3,7 @@ cask "ai-gauge" do
   sha256 "aa9353df26e461c4487d61ffecd6bcf1f5d5cba76cf749ec63b29f7a2202f594"
 
   on_arm do
-    depends_on macos: :big_sur
+    depends_on :macos
   end
   on_intel do
     depends_on macos: :ventura
