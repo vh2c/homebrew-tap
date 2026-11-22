@@ -8,10 +8,13 @@ Official Homebrew tap for open-source macOS tools by **[VH2C](https://vh2c.com.b
 brew install --cask vh2c/tap/ai-gauge
 ```
 
+*(On Homebrew 7+, if prompted that `vh2c/tap` is an untrusted third-party tap, run `brew trust vh2c/tap` first and then `brew install --cask vh2c/tap/ai-gauge`.)*
+
 Or tap first and install:
 
 ```bash
 brew tap vh2c/tap
+brew trust vh2c/tap   # Homebrew 7+
 brew install --cask ai-gauge
 ```
 
